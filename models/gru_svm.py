@@ -16,7 +16,7 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 # ==============================================================================
 
-"""Implementation of the GRU+SVM model"""
+"""Implementation of the GRU-SVM model [http://arxiv.org/abs/1709.03082] by A.F. Agarap"""
 from __future__ import absolute_import
 from __future__ import division
 from __future__ import print_function
@@ -32,10 +32,10 @@ import time
 
 
 class GruSvm:
-    """Implementation of the GRU+SVM model using TensorFlow"""
+    """Implementation of the GRU-SVM model using TensorFlow"""
 
     def __init__(self, alpha, batch_size, cell_size, dropout_rate, num_classes, sequence_length, svm_c):
-        """Initialize the GRU+SVM class
+        """Initialize the GRU-SVM class
 
         Parameter
         ---------
