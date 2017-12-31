@@ -1,0 +1,2 @@
+model_checkpoint_path: "CNN-SVM-2400"
+all_model_checkpoint_paths: "CNN-SVM-2400"
