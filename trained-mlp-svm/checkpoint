@@ -1,0 +1,2 @@
+model_checkpoint_path: "MLP-SVM-2400"
+all_model_checkpoint_paths: "MLP-SVM-2400"
