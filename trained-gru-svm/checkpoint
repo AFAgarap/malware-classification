@@ -1,0 +1,2 @@
+model_checkpoint_path: "GRU-SVM-2400"
+all_model_checkpoint_paths: "GRU-SVM-2400"
